@@ -39,9 +39,10 @@ When(/^I click on more filters$/) do
   sleep (1.to_i)
 end
 
-And(/^I check Has Garage, New listings and Has View checkboxes$/) do 
+And(/^I check Has Garage, New listings, Open houses and Has View checkboxes$/) do 
 	check 'Has garage'
 	check 'New listings'
+	check 'Open houses'
 	check 'Has view'
 	sleep (4.to_i)
 end

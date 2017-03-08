@@ -12,7 +12,7 @@ When I search for "Irvine, CA" in the search box
 And I click search
 Then I should see results for "Irvine Real Estate"
 When I click on more filters
-And I check Has Garage, New listings and Has View checkboxes
+And I check Has Garage, New listings, Open houses and Has View checkboxes
 Then I should see some results listed on the filter page
 When I click fewer filters
 Then I should see some results below the filters
