@@ -41,5 +41,4 @@ the basic procedure in making a 'GET' request to an api. I originally made the c
 get 'honda/civic?year=2008&api_key=7jewp5zzfy8jhry42m8zdkma' and tested the values like this
 expect(JsonObject2['niceName']).to eq('civic')
 I realized this isn't ideal as it defeats the purpose of behavior driven testing, so I assigned the input values to variables
-and passed them in. It could have been done better, but given the time constraints, I just had to ensure that they work. I do 
-test the expected values to the variable.
+and passed them in. It could have been done better, but given the time constraints, I just had to ensure that they work.
